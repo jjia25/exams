@@ -1,23 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <strings.h>
-/*
-int ft_num_count(char *s)
-{
-	int i;
-	int count;
 
-	count = 0;
-	i = 0;
-	while (s[i] != '\0')
-	{
-		if (s[i] >= 0 && s[i] <= 9)
-			count++;
-		i++;
-	}
-	return (count);
-}
-*/
 int is_operand(char c)
 {
 	return (c == '-' || c == '/' || c == '+'
